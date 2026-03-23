@@ -25,5 +25,4 @@ class BankAccount:
 
     def show_balance(self):
         print(f"{self.owner} has ${self.__balance}")
-
-BankAccount.show_balance(kris)
+  
