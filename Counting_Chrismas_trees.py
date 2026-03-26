@@ -1,9 +1,9 @@
 def CountingTrees(Trees):
     n = len(Trees)
-    decreasing = 0
-    increasing = 0
-    decreasingn = 0
-    increasingn = 0
+    decreasing = 1
+    increasing = 1
+    decreasingn = 1
+    increasingn = 1
     for i in range(n-1):
         if i > i+1:
             decreasing +=1
