@@ -10,10 +10,10 @@ class pet:
         self.daylived = daylived
 
     def feed(self):
-        self.satiety += 60
+        self.satiety += 80
 
     def sleep(self):
-        self.energy += 60
+        self.energy += 80
     
     def play(self):
         self.happiness += 40
