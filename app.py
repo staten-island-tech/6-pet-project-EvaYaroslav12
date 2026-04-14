@@ -21,7 +21,7 @@ class pet:
     def liveaday(self):
         self.daylived += 1
         self.satiety -= 40
-        self.energy -=35
+        self.energy -=30
         self.happiness -=10
 
     def alive(self):
